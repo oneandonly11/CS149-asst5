@@ -122,6 +122,7 @@ void bottom_up_step(
     int* distances,
     int current_depth)
 {
+    
     #pragma omp parallel
     {
         int local_count = 0;
